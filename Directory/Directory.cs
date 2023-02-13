@@ -22,10 +22,10 @@ public class Directory : FileItem
 
     public override int Size()
     {
-        int sum = 0;
-        _items.ForEach(item => sum += item.Size());
+        //int sum = 0;
+        //_items.ForEach(item => sum += item.Size());
 
-        return sum;
+        return _items.Sum(file => file.Size());
     }
 }
 

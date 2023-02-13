@@ -9,7 +9,7 @@ public class UnitTest1
         var file2 = new File(20);
         var file3 = new File(30);
         var composite1 = new Directory(file1, file2, file3);
-
+        //or
         var composite2 = new Directory();
         composite2.AddFile(file1);
         composite2.AddFile(file2);

@@ -1,5 +1,5 @@
 ﻿namespace PhoneGenerator;
-//Concrete Class
+//Concrete Builder
 public class GLX : ICellPhoneBuilder
 {
     private CellPhone _phone;

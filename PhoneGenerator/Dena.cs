@@ -1,6 +1,6 @@
 ﻿namespace PhoneGenerator;
 
-//Concrete Class
+//Concrete Builder
 public class Dena : ICellPhoneBuilder
 {
     private CellPhone _phone;

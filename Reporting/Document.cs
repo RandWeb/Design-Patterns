@@ -10,6 +10,7 @@ public class HtmlDocument : Document
 {
 
 }
+
 public class PdfDocument : Document
 {
 

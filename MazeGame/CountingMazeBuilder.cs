@@ -1,6 +1,6 @@
 ﻿namespace MazeGame;
 
-//Concrete Class
+//Concrete Builder
 public class CountingMazeBuilder : IMazeBuilder
 {
     private Maze _maze;

@@ -1,6 +1,6 @@
 ﻿namespace Reporting;
 
-//Concreate
+//Concreate Builder
 public class HtmlReport : IReportBuilder
 {
     public void AddParagraph(string content)

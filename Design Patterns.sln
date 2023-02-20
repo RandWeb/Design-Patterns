@@ -43,7 +43,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MazeGame", "MazeGame\MazeGa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReportingProject", "ReportingProject", "{14A62F7F-4EDC-450B-BDAD-BF1B509E6A28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reporting", "Reporting\Reporting.csproj", "{BC5F5712-BE4E-4151-A22F-423EEF97A6D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reporting", "Reporting\Reporting.csproj", "{BC5F5712-BE4E-4151-A22F-423EEF97A6D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Documentation", "Documentation\Documentation.csproj", "{54E67901-0F23-4407-9706-275025C36FFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,6 +93,10 @@ Global
 		{BC5F5712-BE4E-4151-A22F-423EEF97A6D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC5F5712-BE4E-4151-A22F-423EEF97A6D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC5F5712-BE4E-4151-A22F-423EEF97A6D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54E67901-0F23-4407-9706-275025C36FFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54E67901-0F23-4407-9706-275025C36FFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54E67901-0F23-4407-9706-275025C36FFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54E67901-0F23-4407-9706-275025C36FFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

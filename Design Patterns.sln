@@ -71,13 +71,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DoorGenrator", "DoorGenrato
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facade", "Facade", "{5951ECFE-94A9-430D-8F41-64B2EF013E4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBacnkProject", "ServiceBacnkProject\ServiceBacnkProject.csproj", "{053B6020-FF25-407D-9786-42D7B7DBA5AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceBacnkProject", "ServiceBacnkProject\ServiceBacnkProject.csproj", "{053B6020-FF25-407D-9786-42D7B7DBA5AB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceBankProject", "ServiceBankProject", "{1BDBF10D-75C6-4C58-B119-A978178DD554}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TicketAirProject", "TicketAirProject", "{FEB14FC4-AC3F-43A3-B8E9-1A41B3650B36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketAir", "TicketAir\TicketAir.csproj", "{CDC38848-35C1-4A99-96ED-4767BF821441}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketAir", "TicketAir\TicketAir.csproj", "{CDC38848-35C1-4A99-96ED-4767BF821441}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Design", "Design", "{55726360-3C66-4596-B80E-D730B457597A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Composition Over Inheritance", "Composition Over Inheritance", "{301FEAD2-5A26-4720-A19D-2CDB5B2F261B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositionOverInheritance", "CompositionOverInheritance\CompositionOverInheritance.csproj", "{4FB89F56-ED49-4BA0-95CF-D643148C1CF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -157,6 +163,10 @@ Global
 		{CDC38848-35C1-4A99-96ED-4767BF821441}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDC38848-35C1-4A99-96ED-4767BF821441}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDC38848-35C1-4A99-96ED-4767BF821441}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FB89F56-ED49-4BA0-95CF-D643148C1CF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FB89F56-ED49-4BA0-95CF-D643148C1CF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FB89F56-ED49-4BA0-95CF-D643148C1CF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FB89F56-ED49-4BA0-95CF-D643148C1CF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -196,6 +206,8 @@ Global
 		{1BDBF10D-75C6-4C58-B119-A978178DD554} = {5951ECFE-94A9-430D-8F41-64B2EF013E4C}
 		{FEB14FC4-AC3F-43A3-B8E9-1A41B3650B36} = {5951ECFE-94A9-430D-8F41-64B2EF013E4C}
 		{CDC38848-35C1-4A99-96ED-4767BF821441} = {FEB14FC4-AC3F-43A3-B8E9-1A41B3650B36}
+		{301FEAD2-5A26-4720-A19D-2CDB5B2F261B} = {55726360-3C66-4596-B80E-D730B457597A}
+		{4FB89F56-ED49-4BA0-95CF-D643148C1CF4} = {301FEAD2-5A26-4720-A19D-2CDB5B2F261B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5FC804C6-9299-433D-921F-74C512F14175}

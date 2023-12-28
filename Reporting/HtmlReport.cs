@@ -1,8 +1,15 @@
 ﻿namespace Reporting;
 
-//Concreate Builder
+//Concrete Builder
 public class HtmlReport : IReportBuilder
 {
+    private HtmlDocument _document;
+
+    public HtmlReport(HtmlDocument document)
+    {
+        _document = document;
+    }
+
     public void AddParagraph(string content)
     {
         throw new NotImplementedException();
@@ -15,7 +22,7 @@ public class HtmlReport : IReportBuilder
 
     public Document Build()
     {
-        throw new NotImplementedException();
+        return _document;
     }
 
     public void Footer(string text)

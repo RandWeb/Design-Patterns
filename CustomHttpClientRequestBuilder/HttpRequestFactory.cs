@@ -4,19 +4,9 @@ namespace CustomHttpClientRequestBuilder;
 
 public class HttpRequestFactory : IHttpRequestFactory
 {
-
-    public IHttpServiceBuilder PostAsync()
+    public IHttpServiceBuilder CreateAsync<T>() where T : IHttpServiceBuilder, new()
     {
-      return new PutHttpClient();
-    }
-
-    public IHttpServiceBuilder PutAsync()
-    {
-        return new PutHttpClient();
-    }
-
-    public IHttpServiceBuilder GetAsync()
-    {
-        return new PutHttpClient();
+        var httpClient = new T();
+        return httpClient;
     }
 }

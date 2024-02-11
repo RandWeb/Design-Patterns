@@ -9,8 +9,8 @@ public class PersonalDataFormatterFactory
     {
         return typeOfSource switch
         {
-            TypeOfSource.Excel => new PersonalDataFormatter(new ExcelSourcedPersonelData()),
-            TypeOfSource.Database => new PersonalDataFormatter(new DatabaseSoursedPersonalData()),
+            TypeOfSource.Excel => new PersonalDataFormatter(new ExcelSourcedPersonalData()),
+            TypeOfSource.Database => new PersonalDataFormatter(new DatabaseSourcedPersonalData()),
             _ => throw new ArgumentException(),
         };
     }

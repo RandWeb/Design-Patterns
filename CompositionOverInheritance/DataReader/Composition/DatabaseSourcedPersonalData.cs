@@ -2,12 +2,12 @@
 
 namespace CompositionOverInheritance.DataReader.Composition;
 
-public class ExcelSourcedPersonelData : IPeopleDataReader
+public class DatabaseSourcedPersonalData : IPeopleDataReader
 {
     public IEnumerable<Person> GetPeople()
     {
 
-        Console.WriteLine("Read data from excel");
+        Console.WriteLine("Read data from database");
         return new List<Person>
         {
             new("Mehrdad",26,"khairabad"),

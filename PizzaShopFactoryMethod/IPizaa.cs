@@ -1,0 +1,3 @@
+﻿
+//IFactory
+public interface IPizza { }

@@ -5,7 +5,7 @@ using CustomHttpClientRequestBuilder;
 IHttpRequestFactory requestFactory = new HttpRequestFactory();
 
 var response = await requestFactory
-    .PutAsync()
+    .CreateAsync<PutHttpClient>()
     .AddUri("uri")
     .AddBody("data")
     .AddToken(new Token("token", TypeOfToken.Bearer))

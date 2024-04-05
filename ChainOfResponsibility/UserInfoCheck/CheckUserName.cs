@@ -1,13 +1,17 @@
-﻿namespace ChainOfResponsibility.UserInfoCheck;
+﻿namespace Behavioral.ChainOfResponsibility.CheckUsers.UserInfoCheck;
 
-public class CheckUserName(UserInfoValidator validator = null) : UserInfoValidator(validator)
+/// <summary>
+/// Concrete Handler
+/// </summary>
+public class CheckUserName(UserInfoValidatorBase validatorBase = null) : UserInfoValidatorBase(validatorBase)
 {
-    public override async Task<ResponseMessage> Handle(RequestMessage requestMessage)
+    public override async Task<ResponseMessage> HandleAsync(RequestMessage requestMessage)
     {
         if (requestMessage.UserName is null && requestMessage.UserName.StartsWith("m"))
             return new ResponseMessage(false, "user name is valid");
         if (requestMessage.UserName is not null && requestMessage.UserName.StartsWith("m"))
-            return await validator.Handle(requestMessage);
+            return await validatorBase.HandleAsync(requestMessage);
         return new ResponseMessage(false, "username is invalid");
     }
 }
+

@@ -1,6 +1,9 @@
-﻿namespace ChainOfResponsibility.UserInfoCheck;
+﻿namespace Behavioral.ChainOfResponsibility.CheckUsers.UserInfoCheck;
 
+/// <summary>
+/// handler
+/// </summary>
 public interface IHandler
 {
-    Task<ResponseMessage> Handle(RequestMessage requestMessage);
+    Task<ResponseMessage> HandleAsync(RequestMessage requestMessage);
 }

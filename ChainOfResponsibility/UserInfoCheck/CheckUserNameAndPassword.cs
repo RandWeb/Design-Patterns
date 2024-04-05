@@ -1,15 +1,17 @@
-﻿namespace ChainOfResponsibility.UserInfoCheck;
-
-public class CheckUserNameAndPassword(UserInfoValidator validator = null) : UserInfoValidator(validator)
+﻿namespace Behavioral.ChainOfResponsibility.CheckUsers.UserInfoCheck;
+/// <summary>
+/// Concrete Handler
+/// </summary>
+public class CheckUserNameAndPassword(UserInfoValidatorBase validatorBase = null) : UserInfoValidatorBase(validatorBase)
 {
-    public async override Task<ResponseMessage> Handle(RequestMessage requestMessage)
+    public async override Task<ResponseMessage> HandleAsync(RequestMessage requestMessage)
     {
-        if (validator is null && requestMessage.Password.StartsWith("123456") &&
+        if (validatorBase is null && requestMessage.Password.StartsWith("123456") &&
             requestMessage.UserName.StartsWith("m"))
             return new ResponseMessage(true, "username and password is valid");
-        if (validator is not null && requestMessage.Password.StartsWith("123456") &&
+        if (validatorBase is not null && requestMessage.Password.StartsWith("123456") &&
             requestMessage.UserName.StartsWith("m"))
-            return await validator.Handle(requestMessage);
+            return await validatorBase.HandleAsync(requestMessage);
         return new ResponseMessage(false, "username and password is invalid");
     }
 }

@@ -1,7 +1,8 @@
-﻿namespace ChainOfResponsibility.UserInfoCheck;
+﻿namespace Behavioral.ChainOfResponsibility.CheckUsers.UserInfoCheck;
 
-public abstract class UserInfoValidator(UserInfoValidator validator = null) : IHandler
+public abstract class UserInfoValidatorBase(UserInfoValidatorBase validatorBase = null) : IHandler
 {
-    private readonly UserInfoValidator _validator = validator;
-    public abstract Task<ResponseMessage> Handle(RequestMessage requestMessage);
+    private readonly UserInfoValidatorBase _validatorBase = validatorBase;
+    public abstract Task<ResponseMessage> HandleAsync(RequestMessage requestMessage);
+
 }

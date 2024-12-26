@@ -1,7 +1,6 @@
-using CustomeHttpClientRequestBuilder;
 using CustomeHttpClientRequestBuilder.Models;
 
-namespace CustomHttpClientRequestBuilder;
+namespace CustomeHttpClientRequestBuilder;
 
 public interface IHttpServiceBuilder : IBuilder
 {

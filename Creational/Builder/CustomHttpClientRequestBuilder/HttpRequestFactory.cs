@@ -1,6 +1,4 @@
-﻿using CustomeHttpClientRequestBuilder;
-
-namespace CustomHttpClientRequestBuilder;
+﻿namespace CustomeHttpClientRequestBuilder;
 
 public class HttpRequestFactory : IHttpRequestFactory
 {

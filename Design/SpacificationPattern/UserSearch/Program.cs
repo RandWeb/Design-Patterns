@@ -1,6 +1,6 @@
 ﻿using SeedData;
 using SeedData.Helper;
-using UserSearch.Spacifications;
+using UserSearch.Specifications;
 
 var students = SampleCollections.Students;
 NameStudentFilterSpecification filter = new("mehr");

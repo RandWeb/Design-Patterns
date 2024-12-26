@@ -1,6 +1,5 @@
 ﻿using CustomeHttpClientRequestBuilder;
 using CustomeHttpClientRequestBuilder.Models;
-using CustomHttpClientRequestBuilder;
 
 IHttpRequestFactory requestFactory = new HttpRequestFactory();
 

@@ -1,6 +1,5 @@
 ﻿using System.Net;
 using System.Net.Http.Formatting;
-using CustomeHttpClientRequestBuilder;
 using CustomeHttpClientRequestBuilder.Exceptions;
 using CustomeHttpClientRequestBuilder.Models;
 using Newtonsoft.Json;
@@ -8,7 +7,7 @@ using Newtonsoft.Json.Converters;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json.Serialization;
 
-namespace CustomHttpClientRequestBuilder;
+namespace CustomeHttpClientRequestBuilder;
 
 public abstract class HttpRequestBase : IBuilder
 {

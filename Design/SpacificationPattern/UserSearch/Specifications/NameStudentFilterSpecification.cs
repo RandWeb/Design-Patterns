@@ -1,7 +1,7 @@
 ﻿using SeedData;
 using UserSearch.common;
 
-namespace UserSearch.Spacifications;
+namespace UserSearch.Specifications;
 
 public class NameStudentFilterSpecification(string name) : ISpecification<Student>
 {

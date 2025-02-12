@@ -133,6 +133,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mediator", "Mediator", "{66
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral.Mediator.Airport", "Behavioral.Mediator.Airport\Behavioral.Mediator.Airport.csproj", "{3C59A8D4-ACC3-4E5D-B5DF-406F3F4D568E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Decorator", "Decorator", "{2558E123-12FA-4BF0-BA25-B5EA1DE9CB74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structural.Decorator.Notification", "Structural\Decorator\Structural.Decorator.Notification\Structural.Decorator.Notification.csproj", "{B59E3047-F32B-48A7-93D4-03745B08C72A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -267,6 +271,10 @@ Global
 		{3C59A8D4-ACC3-4E5D-B5DF-406F3F4D568E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C59A8D4-ACC3-4E5D-B5DF-406F3F4D568E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C59A8D4-ACC3-4E5D-B5DF-406F3F4D568E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B59E3047-F32B-48A7-93D4-03745B08C72A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B59E3047-F32B-48A7-93D4-03745B08C72A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B59E3047-F32B-48A7-93D4-03745B08C72A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B59E3047-F32B-48A7-93D4-03745B08C72A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -331,6 +339,8 @@ Global
 		{B0A2B45E-38A4-4DE1-A450-5DF4FCD97C4D} = {D2C08F41-EB30-477A-9E94-C0E401403549}
 		{66AE8FEB-F429-4211-A043-DF8E03974F58} = {8E3576CB-7839-4314-A58B-2EAA138AB527}
 		{3C59A8D4-ACC3-4E5D-B5DF-406F3F4D568E} = {66AE8FEB-F429-4211-A043-DF8E03974F58}
+		{2558E123-12FA-4BF0-BA25-B5EA1DE9CB74} = {FDFCBC68-DAC9-4495-A3DF-5832FB982374}
+		{B59E3047-F32B-48A7-93D4-03745B08C72A} = {2558E123-12FA-4BF0-BA25-B5EA1DE9CB74}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5FC804C6-9299-433D-921F-74C512F14175}

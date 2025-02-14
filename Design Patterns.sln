@@ -145,6 +145,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.DependencyInjection.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.DependencyInjection", "Design\DependencyInjection\Design.DependencyInjection\Design.DependencyInjection.csproj", "{9B679680-4F4C-45BA-9392-DF53AD7C4BE2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Weather", "Weather", "{5310B061-B7DE-431C-A050-ABAC06AA356E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.DependencyInjection.Weather.ConssoleApp", "Design\DependencyInjection\Weather\Weather.ConssoleApp\Design.DependencyInjection.Weather.ConssoleApp.csproj", "{A50F8F02-E86C-4EF1-8890-E659CFC42B5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.DependencyInjection.Weather.Api", "Design\DependencyInjection\Weather\Design.DependencyInjection.Weather.Api\Design.DependencyInjection.Weather.Api.csproj", "{E339F494-61F2-4382-9422-50AB415CC707}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -295,6 +301,14 @@ Global
 		{9B679680-4F4C-45BA-9392-DF53AD7C4BE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B679680-4F4C-45BA-9392-DF53AD7C4BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B679680-4F4C-45BA-9392-DF53AD7C4BE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A50F8F02-E86C-4EF1-8890-E659CFC42B5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A50F8F02-E86C-4EF1-8890-E659CFC42B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A50F8F02-E86C-4EF1-8890-E659CFC42B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A50F8F02-E86C-4EF1-8890-E659CFC42B5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E339F494-61F2-4382-9422-50AB415CC707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E339F494-61F2-4382-9422-50AB415CC707}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E339F494-61F2-4382-9422-50AB415CC707}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E339F494-61F2-4382-9422-50AB415CC707}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -365,6 +379,9 @@ Global
 		{AEC0FB7F-075A-4AC9-BD5A-877B734CE449} = {55726360-3C66-4596-B80E-D730B457597A}
 		{442D433C-E0C5-4238-B43F-E05C12953CCA} = {AEC0FB7F-075A-4AC9-BD5A-877B734CE449}
 		{9B679680-4F4C-45BA-9392-DF53AD7C4BE2} = {AEC0FB7F-075A-4AC9-BD5A-877B734CE449}
+		{5310B061-B7DE-431C-A050-ABAC06AA356E} = {AEC0FB7F-075A-4AC9-BD5A-877B734CE449}
+		{A50F8F02-E86C-4EF1-8890-E659CFC42B5D} = {5310B061-B7DE-431C-A050-ABAC06AA356E}
+		{E339F494-61F2-4382-9422-50AB415CC707} = {5310B061-B7DE-431C-A050-ABAC06AA356E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5FC804C6-9299-433D-921F-74C512F14175}

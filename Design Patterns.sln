@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational Patterns", "Creational Patterns", "{931B8CBC-C5FD-4425-B84E-94AF5A4C7F45}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{931B8CBC-C5FD-4425-B84E-94AF5A4C7F45}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structueral Patterns", "Structueral Patterns", "{FDFCBC68-DAC9-4495-A3DF-5832FB982374}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structueral", "Structueral", "{FDFCBC68-DAC9-4495-A3DF-5832FB982374}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{8E3576CB-7839-4314-A58B-2EAA138AB527}"
 EndProject
@@ -150,6 +150,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.DependencyInjection.Weather.ConssoleApp", "Design\DependencyInjection\Weather\Weather.ConssoleApp\Design.DependencyInjection.Weather.ConssoleApp.csproj", "{A50F8F02-E86C-4EF1-8890-E659CFC42B5D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Design.DependencyInjection.Weather.Api", "Design\DependencyInjection\Weather\Design.DependencyInjection.Weather.Api\Design.DependencyInjection.Weather.Api.csproj", "{E339F494-61F2-4382-9422-50AB415CC707}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structural.Decorator.Notification", "Structural\Decorator\Structural.Decorator.Notification\Structural.Decorator.Notification.csproj", "{B59E3047-F32B-48A7-93D4-03745B08C72A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Decorator", "Decorator", "{B7841CB0-1BD5-4099-9D98-FA39A29B4A83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -309,6 +313,10 @@ Global
 		{E339F494-61F2-4382-9422-50AB415CC707}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E339F494-61F2-4382-9422-50AB415CC707}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E339F494-61F2-4382-9422-50AB415CC707}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B59E3047-F32B-48A7-93D4-03745B08C72A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B59E3047-F32B-48A7-93D4-03745B08C72A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B59E3047-F32B-48A7-93D4-03745B08C72A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B59E3047-F32B-48A7-93D4-03745B08C72A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -382,6 +390,8 @@ Global
 		{5310B061-B7DE-431C-A050-ABAC06AA356E} = {AEC0FB7F-075A-4AC9-BD5A-877B734CE449}
 		{A50F8F02-E86C-4EF1-8890-E659CFC42B5D} = {5310B061-B7DE-431C-A050-ABAC06AA356E}
 		{E339F494-61F2-4382-9422-50AB415CC707} = {5310B061-B7DE-431C-A050-ABAC06AA356E}
+		{B59E3047-F32B-48A7-93D4-03745B08C72A} = {B7841CB0-1BD5-4099-9D98-FA39A29B4A83}
+		{B7841CB0-1BD5-4099-9D98-FA39A29B4A83} = {FDFCBC68-DAC9-4495-A3DF-5832FB982374}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5FC804C6-9299-433D-921F-74C512F14175}
